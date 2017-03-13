@@ -1,0 +1,18 @@
+link_with ['shopping', 'shoppingTests']
+
+platform:ios,'7.0'
+pod 'FMDB', '~> 2.5'
+pod 'Mantle'
+pod 'AFNetworking'
+pod 'AFNetworking-Synchronous'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'CustomIOSAlertView'
+pod 'MMDrawerController'
+pod 'SDWebImage'
+pod 'ActionSheetPicker-3.0'
+pod 'JGActionSheet'
+pod 'SDCycleScrollView','~> 1.3'
+pod 'Canvas', '~> 0.1.2'
+pod 'AMapSearch'
+pod 'SVProgressHUD'

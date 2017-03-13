@@ -1,0 +1,21 @@
+//
+//  CategorySo.h
+//  shopping
+//
+//  Created by chentao on 15/12/21.
+//  Copyright © 2015年 gof. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "MTLModel.h"
+#import "MTLJSONAdapter.h"
+#import "MTLValueTransformer.h"
+#import "NSValueTransformer+MTLPredefinedTransformerAdditions.h"
+
+@interface CategorySo : MTLModel <MTLJSONSerializing>
+
+@property (nonatomic, retain) NSNumber *parentId;
+
++ (NSDictionary*)toDictionary:(CategorySo*)categorySo;
+
+@end
